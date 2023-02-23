@@ -11,4 +11,8 @@ bot.message(with_text: 'dice') do |event|
   event.respond "你骰出#{dice}點!"
 end
 
+bot.message(with_text: 'upgrade!') do |event|
+  event.respond "恭喜你升級到999等!"
+end
+
 bot.run
